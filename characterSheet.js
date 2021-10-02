@@ -99,6 +99,7 @@ $('#age').val(data.age)
 $('#sex').val(data.sex)
 $('#birthplace').val(data.birthplace)
 $('#residence').val(data.residence)
+$ ( '#image') . val (.dados. Imagem)
 
 $('.lifeBar').css('width', `${calculateBar(data.life.current, data.life.max)}%`)
 $('#lifeCount').text(`${data.life.current}/${data.life.max}`)
